@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Ubantu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url('nature.jpg')
+    no-repeat center/cover;
+    position: absolute;
+    width: calc(100vw + 60vw);
+    height: calc(100vw + 60vw);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
